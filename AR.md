@@ -1,5 +1,6 @@
 #不知不觉来自异世界的力量已经开始入侵作为不是勇者的普通人我应该怎么办
 ![16:34:12.jpg](http://ww3.sinaimg.cn/large/006tNbRwgw1f5wxxh30jaj30s40g276t.jpg)
+
 借助Pokemon GO的号召力，AR终于有了一次重归大众视野的机会。AR(Augmented Reality)，中文译作增强现实，并非从未风光过。早在VR的大潮肆虐之前，Google眼镜就曾经尝试将AR推向热点。可惜的是事到如今，眼镜还是眼镜，但A却被V取代。
 
 ![16:35:35.jpg](http://ww2.sinaimg.cn/large/006tNbRwgw1f5wxyzb9q2j30rq0ffgnh.jpg)
