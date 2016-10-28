@@ -1,0 +1,39 @@
+### 2.2 关于项目通过cookbook来学习OpenCV是比较常见的途径。里面涉及了很多算法，但是往往很少有关于高阶应用的开发。某种程度上，由于OpenCV的应用十分多样，所以这种途径是比较易懂。比如我们可以把OpenCV应用在图形编辑，动作控制游戏，机器人的人工智能，或者是记录受验者眼睛动作的心理实验等方面。但通过种种不同的应用，我们真的能掌握一套抽象工具么？
+
+我相信，我们越早开始创建抽象项目越好。我们会通过一个应用来使学习结构化，不过，在每一个阶段，我们会设计这个应用的各个组件，使其能够被扩展和复用。我们会开发一个交互应用，用来做面部追踪和实时的摄像头图像操作。这种应用覆盖了OpenCV一大波功能，而且我们必须挑战自己去实现一个有用，高效的方法。否则用户立刻就会发现应用的瑕疵，比如帧率太低，或者追踪不准确。为了得到最好的结果，我们会尝试传统的图像处理方法和深度图像处理两种方法。我们的应用还会做实时的脸部融合。输入两个摄像头的视频流（或者，也可以是提前录好的视频），应用会把一个视频里的脸叠加到另一个上面。我们会给这个混合场景用一些过滤和变形，让它显得更加和谐。用户会有一种进入其他场景，或者变成另一个人的临场感。这种体验在类似于迪士尼公园的主题公园中比较常见。我们给这个应用起名叫Cameo。cameo指的是宝石中对人的倒影，或者是电影中由名演员演的龙套角色。
+
+### 2.3 面向对象设计
+Python应用可以写成单纯的过程式。这种方式经常用在小的应用上，比如我们前面讨论的基本I/O脚本。不过从现在开始我们要用面向对象的方式了，因为这样更加模块化，更容易扩展。
+
+从我们前面对OpenCV的I/O功能的了解来看，我们知道所有的图片都差不多，不论它们的来源和结果如何。不管我们从哪里拿到流数据或者是图片，不管我们要把它们输出到什么地方，我们总能用相同的应用处理逻辑来处理每一帧。在类似Cameo的应用里面，我们要用到多I/O流，这里把应用代码和I/O代码分离会十分方便。
+
+我们会创建这么几个类，分别叫做CaptureManager和WindowManage来作为I/O流的高级接口。我们的应用代码会使用CaptureManager来阅读新的帧，然后可以把每一帧都送到一个或多个输出端，包括静态的图片文件，视频文件，或者一个窗口（通过WindowManager类）。WindowManager类让我们的应用代码能用面向对象的方式处理窗口和事件。
+
+CaptureManager和WindowManager类都是可扩展的。我们并不一定要依赖于OpenCV来处理I/O，在附录A中，讨论了配合Pygame使用WindowManager的子类。
+
+#### 2.3.1 抽象出视频流——managers.CaputreManager
+
+正如我们之前所见，OpenCV可以捕捉、播放，而且可以录制从视频文件或者摄像头获得的图像流。但是在不同的场景下，会有不同的考虑。我们的CaptureManager类会抽象出其中的不同点，并提供了一个更高级别的接口，用来从捕捉到的流中分发图像到一个或多个输出——一个静态图像文件，一个视频文件，或者是一个窗口——中去。
+
+一个CaptureManager类可以用VideoCapture类初始化，然后就拥有了enterFrame()和exitFrame()方法。这两个方法应该在每次执行主循环的时候都被调用。在调用enterFrame()和exitFrame()两个方法之间，应用可能会（多次）设置一个通道属性，得到一帧的属性。通道属性的初始值是0，而且只有多孔摄像头会用到其他值。帧属性是在enterFrame()被调用的时候，与图片相关的通道状态。实际的写操作会被推迟到exitFrame()被执行。在exitFrame()方法中，帧属性会被显示到窗口。取决于应用是否提供WindowManager类，帧属性可能会作为参数提供给CaptureManager的构造函数，也可能用previewWindowManager属性设置。
+
+如果应用对帧进行操作，这些操作会反映在录制的文件中和窗口中。CaptureManager类的构造函数有一个参数和一个属性叫做shouldMirrorPreview，当我们想要在窗口中而不是在文件中给帧做个镜像（水平翻转）的时候，这个属性应该设为True。一般来说，当面对摄像头的时候，用户更倾向于面对镜像。
+
+再说一次，VideoWriter类需要一个帧率，但是OpenCV并不提供从摄像头获得准确帧率的方法。CaptureManager类使用一个帧计数器来绕过这个限制，需要Python的标准函数time.time()来估算帧率。但这个方法并不是那么可靠。在不同的帧率波动下，以及不同的系统对time.time()的实现不同，对帧率的估算结果在某些情况下会不太喜人。然而如果我们是在一个未知的硬件上做开发，这总要好过假设用户的摄像头有一个特定的帧率。
+
+我们来创建一个文件叫做mamagers.py，里面会包含我们的CaptureManager的实现。这个实现会很长，所以我们来分成几块来看。首先，我们增加引入，一个构造器和一些属性进去，如下：
+```
+   import cv2   import numpy   import time   class CaptureManager(object):       def __init__(self, capture, previewWindowManager = None,                    shouldMirrorPreview = False):           self.previewWindowManager = previewWindowManager           self.shouldMirrorPreview = shouldMirrorPreview           self._capture = capture           self._channel = 0           self._enteredFrame = False           self._frame = None           self._imageFilename = None           self._videoFilename = None           self._videoEncoding = None           self._videoWriter = None           self._startTime = None           self._framesElapsed = long(0)           self._fpsEstimate = None       @property       def channel(self):           return self._channel       @channel.setter       def channel(self, value):           if self._channel != value:               self._channel = value               self._frame = None       @property       def frame(self):           if self._enteredFrame and self._frame is None:               _, self._frame = self._capture.retrieve(\                   channel = self.channel)           return self._frame       @property       def isWritingImage(self):           return self._imageFilename is not None       @property       def isWritingVideo(self):           return self._videoFilename is not None
+```
+注意到我们大部分的变量都是非公开的，在变量前都有一个下划线，比如self._enteredFrame。这些变量和当前帧的状态，以及任意一个文件写操作有关。正如之前讨论过的，应用只需要通过传递构造器的参数，或者设置公共变量，来做一些设置，比如摄像头通道，窗口管理器，或者是镜像预览的选项。
+
+在Python中，以一个下划线开头的变量会被当做保护变量处理（只能在本类或子类的内部被调用），以两个下划线开头的变量则是私有变量（只能在本类内部被访问）。
+
+继续我们的实现，我们来加入enterFrame()和exitFrame()方法：
+```       def enterFrame(self):           """Capture the next frame, if any."""           # But first, check that any previous frame was exited.           assert not self._enteredFrame, \               'previous enterFrame() had no matching exitFrame()'           if self._capture is not None:               self._enteredFrame = self._capture.grab()￼￼￼￼       def exitFrame (self):           """Draw to the window. Write to files. Release the frame."""           # Check whether any grabbed frame is retrievable.           # The getter may retrieve and cache the frame.           if self.frame is None:               self._enteredFrame = False               return           # Update the FPS estimate and related variables.           if self._framesElapsed == 0:               self._startTime = time.time()           else:               timeElapsed = time.time() - self._startTime               self._fpsEstimate =  self._framesElapsed / timeElapsed           self._framesElapsed += 1           # Draw to the window, if any.           if self.previewWindowManager is not None:               if self.shouldMirrorPreview:                   mirroredFrame = numpy.fliplr(self._frame).copy()                   self.previewWindowManager.show(mirroredFrame)               else:                   self.previewWindowManager.show(self._frame)           # Write to the image file, if any.           if self.isWritingImage:               cv2.imwrite(self._imageFilename, self._frame)               self._imageFilename = None           # Write to the video file, if any.           self._writeVideoFrame()           # Release the frame.           self._frame = None           self._enteredFrame = False
+```要注意，enterFrame()的实现只抓取（同步）一帧，不过真正从通道中抓取数据的行为，会被推迟到后面读取帧变量的时候。exitFrame()的实现中，从当前通道获得图片，计算当前的帧率，然后把图片通过window manager（如果有的话）显示，再来满足后面追加的写入图片文件的请求。
+
+还有一些关于写文件的方法。为了完成我们的类的实现，我们要增加一些写文件方法进来：```       def writeImage(self, filename):           """Write the next exited frame to an image file."""           self._imageFilename = filename       def startWritingVideo(               self, filename,               encoding = cv2.cv.CV_FOURCC('I','4','2','0')):           """Start writing exited frames to a video file."""           self._videoFilename = filename           self._videoEncoding = encoding       def stopWritingVideo (self):           """Stop writing exited frames to a video file."""           self._videoFilename = None           self._videoEncoding = None           self._videoWriter = None       def _writeVideoFrame(self):           if not self.isWritingVideo:               return           if self._videoWriter is None:               fps = self._capture.get(cv2.cv.CV_CAP_PROP_FPS)               if fps == 0.0:                   # The capture's FPS is unknown so use an estimate.                   if self._framesElapsed < 20:                       # Wait until more frames elapse so that the                       # estimate is more stable.                       return                   else:                       fps = self._fpsEstimate               size = (int(self._capture.get(                           cv2.cv.CV_CAP_PROP_FRAME_WIDTH)),                       int(self._capture.get(                           cv2.cv.CV_CAP_PROP_FRAME_HEIGHT)))               self._videoWriter = cv2.VideoWriter(                   self._videoFilename, self._videoEncoding,
+                   
+```
+公用方法writeImage()，startWritingVideo()，和stopWritingVideo()，只是简单的记录了写文件操作的参数，而实际上写操作是在调用exitFrame()方法之后。非公开方法_writeVideoFrame()创建或追加内容到一个视频文件，用的方法与我们之前的脚本相近。（参考 读写视频文件 一节）然而，在不知道帧率的情况下，我们会在图像抓取的开始部分跳过一些帧，这样我们能有时间来估算当前的帧率。虽然我们当前的CaptureManager依赖于VideoCapture，我们也能不用OpenCV作为输入。比如我们可以写一个套接字的子类，它的字节流可以作为图像流被分析。我们还可以用第三方的摄像头库来写子类，可以比OpenCV更好的支持不同的设备。不过对于Cameo，我们当前的实现已经足够了。
