@@ -1,0 +1,121 @@
+---
+title: Chrome 自用扩展推介
+tags:
+  - chrome
+  - Windows
+  - 扩展
+  - 推荐
+id: 267
+categories:
+  - 技
+date: 2012-04-19 11:05:24
+---
+
+下面是我用过的比较好的chrome扩展。
+有一些扩展本身也很好，但是我现在没在使用，所以这些就不截图了。
+先把当前正在用的一些推荐一下：
+**1.fawave**
+
+![fawave.png](http://bbs.ghtt.net/data/attachment/forum/201204/18/221629ddd6q9oha6z2qddd.png "fawave.png")
+如图。fawave是一个无缝管理多微博账户的插件。安装完之后会在地址栏右侧出现图标。点击图标可以看到如上界面。
+此插件是一个杀手级的应用，甚至有人因为这个插件而放弃FF投奔chrome。
+插件支持国内所有常见微博，包括新浪腾讯网易搜狐饭否嘀咕豆瓣等等。同时支持twitter。支持api。
+
+如果设置了多用户，则在上图界面的下方会显示所有账户的头像图标，点击可切换账户。
+常用的微博操作都可以再此界面完成。
+支持桌面提醒，声音提醒。
+很好用。
+
+**2.greader notifier（google 阅读器通知程序）**
+
+![greader.png](http://bbs.ghtt.net/data/attachment/forum/201204/18/221634p1lduiapztil11mq.png "greader.png")
+这个功能一般，但是基本够用。显示greader订阅器的未读条目。点击链接直接跳转至订阅源的原文出处。
+主要作为“未读提醒”使用。
+
+**3.谷歌提供的（网页截图）**
+这个就不截图了。因为他本身就是截图软件……
+比较方便的是，它可以帮你把整个网页（而非你能看到的部分）截图。
+比如你可以把bbs中一页15层楼同时截下来。
+
+**4.google tasks**
+
+![gtask.png](http://bbs.ghtt.net/data/attachment/forum/201204/18/221634demhteee3wmamite.png "gtask.png")
+google tasks是我认为比较好的任务管理服务。这个插件只是提供了一个管理界面，方便的添加，编辑，删除todolist。同时可以和手机端或者其他终端的gtask程序同步。
+
+**5.checker plus for google Calendar**
+
+![gcalendar.png](http://bbs.ghtt.net/data/attachment/forum/201204/18/221631jlfwwelke1ald4vw.png "gcalendar.png")
+
+谷歌日历的插件，可以直接在上面添加活动，可以用来安排工作，或者和parter约定合作，甚至可以做成带有通知的电子课表。
+以前曾经把期末考试时间安排放上去来制定复习计划……
+
+另外可以讲网页内容添加为一次活动。
+![gcalendar2.png](http://bbs.ghtt.net/data/attachment/forum/201204/18/221633ks9mz4kvzmfooxyk.png "gcalendar2.png")
+上图中也可以看到其他插件的影子。所以其他插件的快捷功能我就不截图了。
+
+**6.eye droper**
+这个没有截图。
+这个插件用来拾取网页上的颜色，做web开发的时候很方便。
+可以显示颜色的16进制代码。可以直接编辑颜色。支持两次拾色的对比。
+
+**7.谷歌输入工具**
+
+![ginput.png](http://bbs.ghtt.net/data/attachment/forum/201204/18/2216337m49uuxfo0mm9z0t.png "ginput.png")
+
+![input2.png](http://bbs.ghtt.net/data/attachment/forum/201204/18/221638azrayrnbytpz5gss.png "input2.png")
+
+打开之后，在可以在任意非本地网页上使用。这在Linux系统下救急的时候尤其方便。
+或者在一个没有安装中文支持的外国友人……的电脑上……之类的
+
+**8.google dectionary**
+此插件，在你浏览网页是选中一个词的时候，会自动翻译查找释义。
+在阅读国外文档的时候十分方便。
+
+**9.谷歌地图+生活通**
+![map.png](http://bbs.ghtt.net/data/attachment/forum/201204/18/223318gf30o04r087r94rg.png "map.png")
+地图和生活通的杂交。搜索路线和周边比较方便。
+
+**10.iReader**
+此插件用来提取网页内容，让你在一个干净的环境下进行阅读。
+![ireader.png](http://bbs.ghtt.net/data/attachment/forum/201204/18/221639qjcaca373pggm7j7.png "ireader.png")
+装完之后，在支持ireader的网页的地址右侧会出现R的图标，如下。
+![ireader3.png](http://bbs.ghtt.net/data/attachment/forum/201204/18/2216451fxmrj44mdebba16.png "ireader3.png")
+
+我打开了一个bbs帖子，点击R图标之后，效果如下：
+![ireader2.png](http://bbs.ghtt.net/data/attachment/forum/201204/18/2216441m21ff020fl41f56.png "ireader2.png")
+
+模仿乔帮主的设计风格。看起来还是很舒服的。在广告很多的页面使用十分方便。
+
+**11.sight**
+
+![hightlite.png](http://bbs.ghtt.net/data/attachment/forum/201204/18/221638sojjtcvvffojiixi.png "hightlite.png")
+这个插件在chrome右击选择“查看源代码”的时候，会对源代码进行高亮。
+如图：
+![sight.png](http://bbs.ghtt.net/data/attachment/forum/201204/18/223733hwepzwhc5ziohh1w.png "sight.png")
+
+**12.Evernote**
+这个也是大杀器。不知道ls，lx有没有人介绍他。
+我就只介绍这个插件吧。
+![evernote.png](http://bbs.ghtt.net/data/attachment/forum/201204/18/221628q2l8ypqz6qiqx1pi.png "evernote.png")
+安装之后会在地址栏右侧出现Evernote的图标。登陆之后点击此图标，可以讲网页中的内容快捷存储为笔记。可以使用方向键选择要保存的内容范围。在这个界面中可以设置标签，笔记本，评论等内容。
+
+另外，evernote有一个网页版十分好用，基本上可以代替客户端了。
+另外有一个跨平台的第三方客户端做的也很完善，Linux用户可以考虑Nevernote这个软件（好像改名了，需要的自己找找吧）。
+
+**13.ActiveX for Chrome**
+这个插件可以是IE的active控件在chrome下可用。
+说道用处，自然就是网银了。
+
+**14.autopager**
+这个是在FF的时候就很有名的插件了
+支持自动翻页。
+就是你在浏览当前页的时候，就会自动加载下一页，只需要把滚动条往下拉就可以连续浏览多页了。
+
+这个在浏览bbs的时候会不太方便，因为你想回复的时候……你没办法把滚动条拖动到最下面的回复框………………囧
+
+之前还用过豆瓣电台之类的音乐电台插件，但是觉得很一般吧。
+其他的不怎么记得了，先来这么多吧。
+关于chrome的插件有啥问题，可以交流一下。
+我现在都要直接把chrome当做一个上网本的操作系统用了。
+
+&nbsp;
