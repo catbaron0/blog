@@ -12,4 +12,9 @@ jobs:
         username: ${{ secrets.USER_NAME }}
         key: ${{ secrets.KEY }}
         port: ${{ secrets.PORT }}
-        script: whoami
+        script: |
+          cd ${{ secrets.POSTS_PATH }}
+          git pull
+          cd ${{ secrets.DEPLOY_PATH }}
+          hugo
+        
