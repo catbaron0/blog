@@ -3,9 +3,9 @@ on: [push]
 jobs:
   build:
     name: Build
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
     steps:
-    - name: executing remote ssh commands using password
+    - name: deply_blog
       uses: appleboy/ssh-action@v0.1.7
       with:
         host: ${{ secrets.HOST }}
