@@ -5,6 +5,16 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     steps:
+    - name: pull blogs
+      uses: appleboy/ssh-action@v0.1.7
+      with:
+        host: ${{ secrets.HOST }}
+        username: ${{ secrets.USER_NAME }}
+        key: ${{ secrets.KEY }}
+        port: ${{ secrets.PORT }}
+        script: |
+          cd ${{ secrets.POSTS_PATH }} && git pull
+        
     - name: deply_blog
       uses: appleboy/ssh-action@v0.1.7
       with:
@@ -13,12 +23,4 @@ jobs:
         key: ${{ secrets.KEY }}
         port: ${{ secrets.PORT }}
         script: |
-          cd ${{ secrets.POSTS_PATH }}
-          echo POSTS
-          git pull
-          echo PULL
-          cd ${{ secrets.DEPLOY_PATH }}
-          echo DEPLOY
-          hugo
-          echo hugo
-        
+          cd ${{ secrets.DEPLOY_PATH }} && hugo
