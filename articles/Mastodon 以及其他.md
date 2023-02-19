@@ -1,7 +1,6 @@
 ---
 title: "（译）Hello World 中的 bug"
 date: "2022-03-26"
-draft: true
 categories: 
   - "作"
 tags: 
