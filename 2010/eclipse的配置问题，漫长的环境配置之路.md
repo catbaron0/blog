@@ -5,9 +5,6 @@ draft: true
 categories: 
   - "技"
 tags: 
-  - "eclipse"
-  - "java"
-  - "jsp"
   - "linux"
 ---
 
