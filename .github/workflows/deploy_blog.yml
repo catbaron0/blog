@@ -14,7 +14,11 @@ jobs:
         port: ${{ secrets.PORT }}
         script: |
           cd ${{ secrets.POSTS_PATH }}
+          echo POSTS
           git pull
+          echo PULL
           cd ${{ secrets.DEPLOY_PATH }}
+          echo DEPLOY
           hugo
+          echo hugo
         
