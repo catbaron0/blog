@@ -9,7 +9,7 @@ tags:
   - "translate"
 ---
 
-> 最近看到 Hacker News 上转载的[一篇文章](https://kg.dev/thoughts/i-love-you-hn-but-youre-toxic)（这位老兄的播客挺好读的），谈到了一个我曾经（可能现在也在）纠结的事情。文章不长，所以我简短的翻译一下。
+> 最近看到 Hacker News 上转载的[一篇文章](https://kg.dev/thoughts/i-love-you-hn-but-youre-toxic)（这位老兄的博客客挺好读的），谈到了一个我曾经（可能现在也在）纠结的事情。文章不长，所以我简短地翻译一下。
 
 一年之前，我决定远离社交媒体，把精力花在更有价值的东西上，于是我选择了 Hacker News。虽然我已经在这里待了很多年了，但是我决定我要以使用 TikTok hove Instagram 的频率来访问 Hacker News。我觉得，反正我每天也要在手机上花费几个小时，为什么不用这点时间学点东西呢。
 
