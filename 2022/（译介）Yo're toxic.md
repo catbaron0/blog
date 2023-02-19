@@ -1,5 +1,4 @@
 ---
-author: "catbaron"
 title: "（译介）Yo're toxic"
 date: "2023-02-19"
 draft: true
