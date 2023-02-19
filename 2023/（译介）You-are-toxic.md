@@ -1,7 +1,7 @@
 ---
+author: "catbaron"
 title: "（译介）你有毒"
 date: "2023-02-19"
-draft: true
 categories: 
   - "常"
 tags: 
