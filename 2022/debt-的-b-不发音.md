@@ -2,9 +2,10 @@
 title: "Debt 的 b 不发音"
 date: "2022-03-09"
 categories: 
-  - "写画"
+  - "作"
 tags: 
   - "english"
+  - "translate"
 ---
 
 > 最近读到了这样一段小文章，大致讲了英文中一些字母不发音原因，比如 `debt` 中的 `b`。我之前一直以为类似日语中的促音，这些字母本质上要发音（至少要保持口型），但是因为节奏问题不适合真的发声。但原因似乎更简单也更有趣。 以下是对[原文](https://www.merriam-webster.com/words-at-play/why-is-debt-spelled-like-that)的翻译。

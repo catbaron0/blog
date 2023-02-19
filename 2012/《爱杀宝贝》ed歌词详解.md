@@ -1,8 +1,9 @@
 ---
 title: "《爱杀宝贝》ED歌词详解"
 date: "2012-04-02"
+draft: true
 categories: 
-  - "死宅"
+  - "宅"
 tags: 
   - "宅"
   - "日语"

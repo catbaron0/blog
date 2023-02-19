@@ -4,12 +4,7 @@ date: "2014-04-08"
 categories: 
   - "技"
 tags: 
-  - "geek"
   - "javascript"
-  - "js"
-  - "点赞"
-  - "脚本"
-  - "虾米"
 ---
 
 今天发现虾米有一个点赞成就，达到成就后可以开通VIP
@@ -18,12 +13,12 @@ tags:
 
 先打开好友状态页面，往下滚动尽可能加载出来更多的状态，然后在chrome控制台执行下面js代码：
 
-```
+```js
 i=1;
 setInterval("i++;$('.comment_like')[0].children[0].click();$('.item_wrap')[i].click();alert(i)",5000)
 ```
 
-```
+```js
 print('test')
 ```
 

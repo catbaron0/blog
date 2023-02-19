@@ -5,7 +5,7 @@ categories:
   - "技"
 tags: 
   - "telegram"
-  - "微信"
+  - "wechat"
 ---
 
 我知道看我 blog 的人中有人用过 [Telegram](https://telegram.org/)，比如[@水八口](https://shuiba.co/) 曾经就把自己的 Telegram 账号堂而皇之地挂在自己的主页上。

@@ -5,8 +5,7 @@ categories:
   - "技"
 tags: 
   - "linux"
-  - "代理"
-  - "脚本"
+  - "proxy"
 ---
 
 前文介绍过一个[在海外如何翻墙回国内的代理配置方法](http://catbaron.com/blog/2015/12/15/%e6%b5%b7%e5%a4%96%e7%94%a8%e6%88%b7%e7%9a%84%e5%9b%bd%e5%86%85%e5%9c%a8%e7%ba%bf%e9%9f%b3%e4%b9%90%e6%9c%8d%e5%8a%a1%e4%bd%bf%e7%94%a8%e6%8c%87%e5%8d%97/)。然后又写了一个[自动抓取免费代理服务器地址的脚本](http://catbaron.com/blog/2015/12/19/%e8%87%aa%e5%8a%a8%e8%8e%b7%e5%8f%96%e5%9b%bd%e5%86%85%e4%bb%a3%e7%90%86ip/)。  
@@ -18,7 +17,7 @@ tags:
 不过当时懒，就这么用了。  
 最近感觉这个功能不好用还不如没有，于是用curl代替ping重新测了一下速度。更新的脚本如下：
 
-```
+```bash
 #!/bin/sh
 date
 echo -n > ip.txt

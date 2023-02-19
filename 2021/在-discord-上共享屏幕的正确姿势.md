@@ -4,7 +4,8 @@ date: "2021-04-11"
 categories: 
   - "技"
 tags: 
-  - "sourndflower"
+  - "discord"
+  - "streaming"
 ---
 
 ## 背景

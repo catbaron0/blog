@@ -5,6 +5,7 @@ categories:
   - "技"
 tags: 
   - "programing"
+  - "translate"
 ---
 
 [原文链接：Bugs in Hello World](https://blog.sunfishcode.online/bugs-in-hello-world/)

@@ -2,10 +2,10 @@
 title: "十年之后，Notes Plus 推出了全新版本"
 date: "2021-11-04"
 categories: 
-  - "死宅"
+  - "宅"
 tags: 
   - "ipad"
-  - "安利"
+  - "tech"
 ---
 
 最近某款笔记应用转到订阅制的新闻引起了很多人的关注。很多人表示想要迁移到别的笔记应用去。在这些讨论中我看到有人提到了 Notes Plus （后略称为 NP），这让我有些意外。在 iPad 上出现过很多优秀的笔记软件，在提到它们的时候，GoodNotes 和 Notability 是最常作为标杆被拿来做比对的，而 Notes Plus 则很少被提起。

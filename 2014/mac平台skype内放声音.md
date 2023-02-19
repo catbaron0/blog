@@ -4,12 +4,10 @@ date: "2014-09-03"
 categories: 
   - "技"
 tags: 
-  - "geek"
   - "mac"
   - "skype"
   - "soudflower"
-  - "录音"
-  - "技"
+  - "record"
 ---
 
 好吧，先说一下需求。

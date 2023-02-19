@@ -5,8 +5,7 @@ categories:
   - "技"
 tags: 
   - "linux"
-  - "代理"
-  - "脚本"
+  - "proxy"
 ---
 
 前面写了一个用[代理翻回国内的指南](http://catbaron.com/blog/2015/12/15/%e6%b5%b7%e5%a4%96%e7%94%a8%e6%88%b7%e7%9a%84%e5%9b%bd%e5%86%85%e5%9c%a8%e7%ba%bf%e9%9f%b3%e4%b9%90%e6%9c%8d%e5%8a%a1%e4%bd%bf%e7%94%a8%e6%8c%87%e5%8d%97/ "代理翻回国内的指南")，需要从proxy-list.org这里找免费代理IP。  
@@ -18,7 +17,7 @@ tags:
 
 然后在服务器跑了个定时任务，每小时更新一次。
 
-```
+```bash
 #!/bin/sh
 date
 echo -n > ip.txt

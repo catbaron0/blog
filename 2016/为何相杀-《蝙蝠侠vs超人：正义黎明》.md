@@ -2,21 +2,12 @@
 title: "为何相杀——《蝙蝠侠VS超人：正义黎明》"
 date: "2016-04-01"
 categories: 
-  - "写画"
+  - "作"
 tags: 
-  - "bvs"
   - "dc"
-  - "影评"
-  - "正义联盟"
-  - "电影"
-  - "蝙蝠侠"
-  - "超人"
-  - "超级英雄"
+  - "movie"
 ---
 
-![](http://ww2.sinaimg.cn/large/6f7d1cdfjw1f2hf3gcgquj21kw13r7mq.jpg)
-
-\[caption id="" align="aligncenter" width="484"\]![](http://ww1.sinaimg.cn/large/6f7d1cdfjw1f2hf8hldhfj21kw149dzp.jpg) 电影院送了一个文件封皮，正面是《BVS》，背面是《自杀小队》\[/caption\]
 
 终于去看了《蝙蝠侠VS超人：正义黎明》。之前看网络上的评价毁誉参半，今天真正看过之后也算理解了背后的原因。
 

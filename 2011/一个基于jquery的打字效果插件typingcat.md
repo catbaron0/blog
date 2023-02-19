@@ -4,14 +4,13 @@ date: "2011-12-21"
 categories: 
   - "技"
 tags: 
-  - "coding"
   - "javascript"
 ---
 
 前段时间，要写一个页面，需要用到打字效果。在网上找到几个基于jQery的插件，但是有些太复杂，有些不太可控。于是干脆就自己写了一个。  
 用法和效果都比较简单，直接把html的代码写出来，看注释应该就知道怎么用了首先需要在 `<head></head>` 中加载必要的插件
 
-```
+```html
 <head>
 …
 <script type=”text/javascript” src=”js/jquery.js”></script>
@@ -21,7 +20,7 @@ tags:
 
 而html的body中有如下标签内容（用来承载打印效果的位置）：
 
-```
+```html
 <body>
 <div><a href=’#’>back</a></div>
 <div id=’pra1′>
@@ -38,7 +37,7 @@ tags:
 
 然后需要做的是，在任意位置加入下面的代码（开始使用插件，示例是放在了head标签里面）：
 
-```
+```html
 <head>
 <script type=”text/javascript” src=”js/jquery.js”></script>
 <script type=”text/javascript” src=”js/type.js”></script>

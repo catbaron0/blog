@@ -5,9 +5,6 @@ categories:
   - "技"
 tags: 
   - "chrome"
-  - "windows"
-  - "扩展"
-  - "推荐"
 ---
 
 下面是我用过的比较好的chrome扩展。

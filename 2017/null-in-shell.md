@@ -2,15 +2,13 @@
 title: "Null in Shell"
 date: "2017-04-20"
 categories: 
-  - "写画"
-  - "死宅"
+  - "作"
+  - "宅"
 tags: 
-  - "动画"
-  - "影评"
+  - "movie"
   - "押井守"
   - "攻壳机动队"
-  - "电影"
-  - "科幻"
+  - "SF"
 ---
 
 ![](http://ww2.sinaimg.cn/large/006tKfTcgy1fethnrg7b5j30yu0jan5d.jpg) 看了《攻壳机动队》真人电影。
