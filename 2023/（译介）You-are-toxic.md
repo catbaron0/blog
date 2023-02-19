@@ -1,5 +1,5 @@
 ---
-title: "（译介）Yo're toxic"
+title: "（译介）你有毒"
 date: "2023-02-19"
 draft: true
 categories: 
