@@ -37,9 +37,7 @@ iOS 14 的 Safari 默认支持视频的悬浮播放。全屏播放一个视频�
 
 Youtube 是块宝地。除了正常的长视频之外，还有很多以声音为主的内容，比如 音乐/脱口秀/播客/ 等等。
 
-在 iOS 上，如果想要在后台播放 Youtube，需要加入YouTube会员。Youtube会员的支持内容为：
-
-![](https://tva1.sinaimg.cn/large/00831rSTgy1gcw10jero6j30ku0it0w4.jpg)
+在 iOS 上，如果想要在后台播放 Youtube，需要加入YouTube会员。
 
 当然这也是最优雅的解决方案。毕竟 Youtube Music 的体验也极佳。 但如果你只想后台播放的话，还有其他的办法。
 
