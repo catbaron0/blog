@@ -9,11 +9,13 @@ tags:
   - translate
   - programing
 ---
-> 这是一篇发布在 10 年前的文章，作者讲述了它为 PS1 开发《古惑狼》时遇到的一个奇怪的 Bug。原文是作为问答网站 Quora 的一个回答，它回答的问题是：你调试过最硬核的 Bug 是什么？这个答案最终也获得了 6.7K 投票。
+> 这是一篇发布在 10 年前的文章，作者讲述了它为 PS1 开发《古惑狼》时遇到的一个奇怪的 Bug。原文是问答网站 Quora 的一个回答，它回答的问题是：你调试过最硬核的 Bug 是什么？这个答案最终也获得了 6.7K 投票。
 
 [原文链接](https://www.quora.com/Programming-Interviews/Whats-the-hardest-bug-youve-debugged)
+
 作者：[Dave Baggett](https://www.quora.com/profile/Dave-Baggett)
-原文发布于October 31, 2013
+
+原文发布于 2013/10/31
 
 现在说起这事我都还有点痛苦。
 
