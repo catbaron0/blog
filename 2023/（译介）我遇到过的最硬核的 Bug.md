@@ -1,6 +1,6 @@
 ---
 author: "catbaron"
-title: ""
+title: "（译介）我遇到过的最硬核的 Bug"
 date: "2023-03-20"
 draft: false
 categories: 
