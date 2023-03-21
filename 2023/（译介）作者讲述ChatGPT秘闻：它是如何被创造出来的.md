@@ -8,7 +8,7 @@ categories:
 tags: 
   - translate
   - chatgpt
-  - openai
+  - openain
 ---
 
 > ChatGPT 爆火之后，网上有各种讨论。这篇文章的作者采访了 OpenAI 的四位相关人员。在谈话中，他们提到了一些有趣的事情。包括他们自己对 ChatGPT 已经相关模型技术的观点。比如 OpenAI 在开发初期就对越狱行为有所预知，他们也知道语言模型会编造一些内容等等。
