@@ -1,6 +1,6 @@
 ---
 author: catbaron
-title: ""
+title: EVE Online 中的一场劫案
 date: 2023-12-15
 draft: false
 categories:
