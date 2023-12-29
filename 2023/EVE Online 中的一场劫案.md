@@ -5,7 +5,6 @@ date: 2023-12-15
 draft: false
 categories:
   - 作
-  - ""
 tags:
   - game
   - eve
