@@ -1,11 +1,13 @@
 ---
 author: catbaron
-title: ""
+title: AI迷思录
 date: 2024-01-04
 draft: false
 categories:
   - ""
+  - 作
 tags:
+  - AI
 ---
 ![](https://raw.githubusercontent.com/catbaron0/pic/main/images/202417203449.png)
 
