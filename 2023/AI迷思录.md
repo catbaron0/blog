@@ -42,8 +42,8 @@ ChatGPT 的流行被很多人看作是朝向通用 AI 的一大步。和以往�
 
 回到最开始的话题。我在开头说到的「无聊」的现状令我想起世纪初的手机行业，那时候市场上有各种设计鲜明的手机。即使 iPhone 4 真正打开大屏幕智能手机之后，Android 阵营也以保持了旺盛的生命力。但很快，所有手机都变得强大而单调，甚至连屏幕尺寸都一心求大。（骂的就是三星 Note 始作俑者）这当然说不是事坏事，但也远远说不上好。App 开发者似乎也踏入这段河流：打开 Product Hunt，有 1/3 的产品都把 AI 挂在描述中。问题是，现在甚至还没有一个 AI 届的 iPhone 验证出一条清晰的道路（尽管有[很多人](https://hu.ma.ne)都梦想着自己做出那个 iPhone）。
 
-![](https://raw.githubusercontent.com/catbaron0/pic/main/images/202417202542.png)
+![Product Hunt](https://raw.githubusercontent.com/catbaron0/pic/main/images/202417202542.png)
 
 如同 Andrew Ng 所说，[AI 是新时代的电力](https://www.gsb.stanford.edu/insights/andrew-ng-why-ai-new-electricity)。大模型时代之后，终于出现了电力公司让所有人能接触到这种新电力，开发者却没能利用电力开发出有用的电器，而是出现了各种各样的电灯。全是灯，等灯等灯。过去的 2023 年无疑是一个 AI 年，在产品上却反而有些乏味。但我隐隐觉得接下来几年会变的愈加有趣起来，因为无论如何，时代已经变了。
 
-![](https://raw.githubusercontent.com/catbaron0/pic/main/images/202417205958.png)
+![大人，时代变了](https://raw.githubusercontent.com/catbaron0/pic/main/images/202417210357.png)
