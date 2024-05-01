@@ -4,6 +4,7 @@ title: AI迷思录
 date: 2024-01-04
 draft: false
 categories:
+  - ""
   - 作
 tags:
   - AI
