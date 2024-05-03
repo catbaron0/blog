@@ -1,10 +1,8 @@
 ---
-author: "catbaron"
+author: catbaron
 title: ""
 date: "{{date}}"
 draft: true
-categories: 
-  - ""
-tags: 
-  - ""
+categories: []
+tags:
 ---
