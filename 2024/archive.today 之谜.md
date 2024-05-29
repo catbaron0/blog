@@ -63,6 +63,8 @@ tags:
 此外，用户可以通过 *Tumblr* 的匿名提问系统向官方提问，
 网站的作者会不定期地回答其中的一些问题。
 这几乎就是用户和网站作者唯一的互动方式了。
+![](https://raw.githubusercontent.com/catbaron0/pic/main/images/2024529233239.png)
+
 
 我们可以从这些事实中看出一些端倪。
 
