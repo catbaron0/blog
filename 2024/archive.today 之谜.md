@@ -36,6 +36,7 @@ tags:
 所以我们好奇的是，到底是谁在耗费心力，免费地维护着这一个网站？
 
 ## 功能
+![](https://raw.githubusercontent.com/catbaron0/pic/main/images/2024529233009.png)
 我们从 *archive.today* 的设计上能对网站作者有一个直觉上的感受。
 
 打开 *archive.today*，你可以看到两个类似地址栏的输入框。
