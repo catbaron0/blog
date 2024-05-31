@@ -214,24 +214,24 @@ BSP 树的构建过程如下：
 - 对 $N$ 左右两边的列表重复以上操作。
 
 接下来我们通过一个例子来详细说明这个过程。
+![](https://raw.githubusercontent.com/catbaron0/pic/main/images/202461015438.png)
 
-![](https://raw.githubusercontent.com/catbaron0/pic/main/images/2024531232019.png)
 
 场景中有 ABCD 四个多边形
 
-![](https://raw.githubusercontent.com/catbaron0/pic/main/images/2024531232119.png)
+![](https://raw.githubusercontent.com/catbaron0/pic/main/images/202461015508.png)
+
 
 选取 A 作为第一个节点。由于 BCD 三个多边形都被 A 分割，因此将他们分割为 B1 B2 C1 C2 D1 D2 
 六个多边形，其中 B1 C1 和 D1 位于 A 的后方，B2 C2 和 D2 位于 A 的前方，
 分别将它们放入 A 左右两边的列表中。
-
-![](https://raw.githubusercontent.com/catbaron0/pic/main/images/2024531232515.png)
+![](https://raw.githubusercontent.com/catbaron0/pic/main/images/202461015533.png)
 
 
 从 $A$ 右边的列表选取一个多边形 $B2$ 作为节点，此时 $C2$ 完全位于 $B2$ 的后方，因此放入 $B2$ 左边
 的列表。$D2$ 则被 $B2$ 重新分割成 $D2$ 和 $D3$ 两部分， 分别放入 $B2$ 左右两边的列表。
+![](https://raw.githubusercontent.com/catbaron0/pic/main/images/202461015602.png)
 
-![](https://raw.githubusercontent.com/catbaron0/pic/main/images/2024531232840.png)
 
 以此类推，直至所有的多边形都被选为节点。
 
@@ -252,7 +252,7 @@ BSP 树的构建过程如下：
 	- 绘制 $N$ 左边的节点（对应多边形位于 $N$ 后方）
 
 下面以下图为例详细说明。
-![](https://raw.githubusercontent.com/catbaron0/pic/main/images/2024531233039.png)
+![](https://raw.githubusercontent.com/catbaron0/pic/main/images/202461015624.png)
 
 这里的 BSP 树的根节点为 $A$ ，因此我们从 $A$ 开始绘制多边形。
 $N$ 位于 $A$ 的前方，所以我们先绘制 $A$ 后方的多边形，即 {$B1, C1, D1$}。
