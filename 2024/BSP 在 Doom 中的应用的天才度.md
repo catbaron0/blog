@@ -218,9 +218,7 @@ BSP 树的构建过程如下：
 
 
 场景中有 ABCD 四个多边形
-
-![](https://raw.githubusercontent.com/catbaron0/pic/main/images/202461015508.png)
-
+![](https://raw.githubusercontent.com/catbaron0/pic/main/images/202461020128.png)
 
 选取 A 作为第一个节点。由于 BCD 三个多边形都被 A 分割，因此将他们分割为 B1 B2 C1 C2 D1 D2 
 六个多边形，其中 B1 C1 和 D1 位于 A 的后方，B2 C2 和 D2 位于 A 的前方，
