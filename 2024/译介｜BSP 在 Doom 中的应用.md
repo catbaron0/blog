@@ -1,6 +1,6 @@
 ---
 author: catbaron
-title: BSP 在 Doom 中的应用的天才度
+title: 译介｜BSP 在 Doom 中的应用
 date: 2024-05-30
 draft: false
 categories:
