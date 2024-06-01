@@ -1,6 +1,6 @@
 ---
 author: catbaron
-title: 译介｜BSP 在 Doom 中的应用
+title: 译介｜BSP 是如何被发现并应用在 Doom 中的？
 date: 2024-05-30
 draft: false
 categories:
