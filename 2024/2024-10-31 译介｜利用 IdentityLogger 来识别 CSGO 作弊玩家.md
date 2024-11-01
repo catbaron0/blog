@@ -10,7 +10,7 @@ tags:
 ---
 [原文地址](https://mobeigi.com/blog/gaming/how-we-outsmarted-csgo-cheaters-with-identitylogger/)
 
-##维护一个CSGO服务器
+## 维护一个CSGO服务器
 我曾经创建并维护了一个位于澳洲和新西兰的CSGO社区服务器，
 这个叫做InvexGaming的服务器活跃于2014年至2019年间。
 得益于我们优秀的社区环境、创作内容、比赛和各种自定义的游戏插件，
