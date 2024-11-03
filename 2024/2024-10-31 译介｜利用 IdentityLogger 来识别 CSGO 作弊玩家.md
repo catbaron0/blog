@@ -156,7 +156,7 @@ Cookies被设计用来持续存储通讯会话信息，那要是我们在每一�
 很好，我们已经找到了一个方法来悄悄保存玩家的cookie，于是我们现在有了第三个识别子来协助我们生成玩家的指纹信息了。这个识别子——我们称之为TrackingID——和玩家的安装路径绑定。
 现在，一个玩家想要假装自己是「新玩家」，他需要更换**Steam ID**，**IP地址**，以及自己的**Steam安装路径**。如你所想，没人会想到去做第三点。
 
-（整个玩家系统被称为IdentityLogger，它是被开源在[Github](https://github.com/InvexGaming/IdentityLogger)。此处我略过了原文中对的实装细节。）
+（整个玩家系统被称为IdentityLogger，它被开源在[Github](https://github.com/InvexGaming/IdentityLogger)。此处我略过了原文中对实装细节的介绍。）
 
 ## 2017年的封禁浪潮
 在开发并测试了这套解决方案之后，我们在2017年2月将它部署到了GamingCSGO服务器上。
