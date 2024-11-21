@@ -1,8 +1,8 @@
 ---
 author: catbaron
 title: ""
-date: "{{date}}"
 draft: true
+date: "{{date}}"
 categories: []
 tags:
 ---
