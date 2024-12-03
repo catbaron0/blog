@@ -1,11 +1,11 @@
 ---
-title: "暗夜红天（译“red sky at night”）"
-date: "2011-03-19"
-categories: 
-  - "作"
-tags: 
-  - "SF"
-  - "translate"
+title: 暗夜红天（译“red sky at night”）
+date: 2011-03-19
+categories:
+  - 作
+tags:
+  - SF
+  - translate
 ---
 
 By Matthew Juke（新闻作者，译者注） 20世纪九十年代，中国从一个封闭的壳中苏醒，开始看到越来越多的科幻作家涌现出来。在我们面前的，则是中国最突出也是最高产的两位科幻作家，韩松和潘海天。书虫准备在三月十七日的中国科幻和中国未来可能性的主题中邀请此二人（who are going to be putting forth the case for Chinese science fiction and the prospects for the future of the country at the Bookworm on March 17）。他们对环球时报谈到了科幻的过去，当下，以及在未来的状况。

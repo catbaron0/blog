@@ -7,6 +7,7 @@ categories:
   - 作
 tags:
   - game
+  - translate
 ---
 [原文地址](https://mobeigi.com/blog/gaming/how-we-outsmarted-csgo-cheaters-with-identitylogger/)
 
