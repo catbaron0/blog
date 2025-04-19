@@ -1,10 +1,11 @@
 ---
-title: "一个基于Jquery的打字效果插件TypingCat"
-date: "2011-12-21"
-categories: 
-  - "技"
-tags: 
-  - "javascript"
+title: 一个基于Jquery的打字效果插件TypingCat
+date: 2011-12-21
+categories:
+  - 技
+tags:
+  - javascript
+draft: true
 ---
 
 前段时间，要写一个页面，需要用到打字效果。在网上找到几个基于jQery的插件，但是有些太复杂，有些不太可控。于是干脆就自己写了一个。  
