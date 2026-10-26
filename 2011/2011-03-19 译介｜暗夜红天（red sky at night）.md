@@ -66,4 +66,4 @@ By Matthew Juke（新闻作者，译者注）
 
 “我想情况在变化。我不知道美国和英国如何，但是我认为相对中国好多了。至少我能列举出一些欧美作家的名字，你们那有多少人知道我呢？”潘海天说。 如果你想要更深入的了解，你可以在明晚的“书虫国际文化节”（Bookworm International Literary Festival）遇到他们。
 
-（看到英文版，想下干脆翻译下来好了，第一次翻译，很多不懂啊我又不考GRE。附上原文：http://msn.huanqiu.com/chinalife/community/2011-03/1565756.html 此链接已失效。好在豆瓣的韩松小组有人曾转过此篇文章[在此](https://www.douban.com/group/topic/18365236/) \[2018.08.01 更新\]）
+（看到英文版，想下干脆翻译下来好了，第一次翻译，很多不懂啊我又不考GRE。附上原文：http://msn.huanqiu.com/chinalife/community/2011-03/1565756.html 此链接已失效。好在豆瓣的韩松小组有人曾转过此篇文章[在此](https://www.douban.com/group/topic/18365236/) 2018.08.01 更新）
